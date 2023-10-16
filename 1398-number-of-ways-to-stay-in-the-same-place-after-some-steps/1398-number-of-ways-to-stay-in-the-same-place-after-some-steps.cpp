@@ -16,7 +16,7 @@ public:
     }
     int numWays(int s, int n) 
     {
-        memset(dp,-1,sizeof (dp));
+        memset(dp,-1,sizeof(dp));
         return solve(0,s,n-1);
     }
 };
