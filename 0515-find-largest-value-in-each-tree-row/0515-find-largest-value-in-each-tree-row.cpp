@@ -12,7 +12,7 @@
 class Solution 
 {
 public:
-    vector<vector<int>>v;
+    // vector<vector<int>>v;
     vector<int> largestValues(TreeNode* root) 
     {
         if(!root) return{};
@@ -24,20 +24,21 @@ public:
         while(q.size())
         {
             int n = q.size();
-            vector<int>temp;
+            // vector<int>temp;
+            int temp = INT_MIN;
             for(int i=0;i<n;i++)
             {
                 TreeNode* curr = q.front();q.pop();
 
-                temp.push_back(curr -> val);
+                temp = max(temp,curr->val);
 
                 if(curr->left) q.push(curr->left);
                 if(curr->right) q.push(curr->right);
             }
-            v.push_back(temp);
+            ans.push_back(temp);
         }
 
-        for(vector<int> &i:v) ans.push_back(*max_element(i.begin(),i.end()));
+        // for(vector<int> &i:v) ans.push_back(*max_element(i.begin(),i.end()));
 
         return ans;
     }
