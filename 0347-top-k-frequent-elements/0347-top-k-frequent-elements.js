@@ -11,9 +11,9 @@ var topKFrequent = function(nums, k)
 
     let pq = Array.from(map);
 
-    pq.sort((a,b) => a[1] - b[1]);
+    pq.sort();
 
-    for(let i = pq.length - k;i < pq.length ;i++)
+    for(let i = 0;i < k ;i++)
     {
         ans.push(pq[i][0]);
     }
