@@ -45,3 +45,19 @@ This repository is licensed under the MIT License. See the `LICENSE` file for de
 
 Happy coding!
 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
+<!---LeetCode Topics End-->
