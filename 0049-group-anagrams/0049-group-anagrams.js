@@ -10,7 +10,7 @@ var groupAnagrams = function(strs) {
     {
         let sortedS = s.split("").sort().join("");
 
-        if(map.has(sortedS)) map.set(sortedS,[...map.get(sortedS),s])
+        if(map.has(sortedS)) map.set(sortedS,[...map.get(sortedS),s]);
         else {map.set(sortedS,[s])}
     }
 
