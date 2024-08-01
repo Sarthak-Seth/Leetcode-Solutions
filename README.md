@@ -74,6 +74,7 @@ Happy coding!
 | ------- |
 | [0049-group-anagrams](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/0242-valid-anagram) |
+| [1250-longest-common-subsequence](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -98,4 +99,8 @@ Happy coding!
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/0238-product-of-array-except-self) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/Sarthak-Seth/Leetcode-Solutions/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
