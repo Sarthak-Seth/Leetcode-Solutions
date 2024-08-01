@@ -19,7 +19,7 @@ var longestCommonSubsequence = function(s1, s2)
             else curr[j] = Math.max(prev[j],curr[j-1]);
     
         }
-        prev = Array.from(curr);
+        prev = curr.map(x => x);
     }
     return prev[m];
 };
