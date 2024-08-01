@@ -20,6 +20,19 @@ var solve = function(s1,s2,i,j)
 
 var longestCommonSubsequence = function(s1, s2) 
 {
-    dp = Array.from({length:s1.length+1},() => Array(s2.length + 1).fill(-1));
-    return solve(s1,s2,s1.length,s2.length);
+    const n = s1.length, m = s2.length;
+    dp = Array.from({length:s1.length+1},() => Array(s2.length + 1).fill(0));
+
+    for(let i=1;i<n+1;i++)
+    {
+        for(let j=1;j<m+1;j++)
+        {
+            if(s1[i-1] === s2[j-1])dp[i][j] = 1 + dp[i-1][j-1];
+
+            else dp[i][j] = Math.max(dp[i-1][j],dp[i][j-1]);
+    
+        }
+
+    }
+    return dp[n][m];
 };
